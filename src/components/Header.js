@@ -4,9 +4,13 @@ import GitHubButton from 'react-github-btn'
 import Link from './link';
 import './styles.css';
 import config from '../../config.js';
-
+import Sidebar from "./sidebar";
 import Search from './search/index';
+
 const help = require('./images/help.svg');
+const logoImg = require('./images/logo.svg');
+const twitter = require('./images/twitter.svg');
+
 const isSearchEnabled = config.header.search && config.header.search.enabled ? true : false;
 
 let searchIndices = [];
@@ -16,7 +20,6 @@ if(isSearchEnabled && config.header.search.indexName) {
   );
 }
 
-import Sidebar from "./sidebar";
 
 const Header = ({location}) => (
   <StaticQuery
@@ -42,8 +45,6 @@ const Header = ({location}) => (
         }
         `}
     render={(data) => {
-      const logoImg = require('./images/logo.svg');
-      const twitter = require('./images/twitter.svg');
       const {
         site: {
           siteMetadata: {

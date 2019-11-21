@@ -33,7 +33,7 @@ const config = {
     title: "OpenDiablo II",
     description: "OpenDiablo II Documentation & Ressources",
     ogImage: null,
-    docsLocation: "https://github.com/OpenDiablo2/OpenDiablo2",
+    docsLocation: "https://github.com/OpenDiablo2/Website/tree/master/content",
     favicon: "https://github.com/OpenDiablo2/OpenDiablo2/raw/master/d2logo.png"
   }
 };
