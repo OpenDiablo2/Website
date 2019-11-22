@@ -9,7 +9,6 @@ const forcedNavOrder = config.sidebar.forcedNavOrder;
 
 const Sidebar = styled('aside')`
   width: 100%;
-  background-color: #fff;
   border-right: 1px solid #ede7f3;
   height: 100vh;
   overflow: auto;
@@ -44,17 +43,16 @@ const ListItem = styled(({ className, active, level, ...props }) => {
     position: relative;
 
     &:hover {
-      color: rgb(116, 76, 188) !important;
+      color: rgb(209, 89, 85)!important;
     }
 
     ${props =>
       props.active &&
       `
-      color: #663399;
+      color: rgb(209, 89, 85);
       border-color: rgb(230,236,241) !important;
       border-style: solid none solid solid;
       border-width: 1px 0px 1px 1px;
-      background-color: #fff;
     `} // external link icon
     svg {
       float: right;

@@ -51,17 +51,7 @@ const plugins = [
     },
   },
 ];
-if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {
-  plugins.push({
-    resolve: `gatsby-plugin-algolia`,
-    options: {
-      appId: config.header.search.algoliaAppId, // algolia application id
-      apiKey: config.header.search.algoliaAdminKey, // algolia admin key to index
-      queries,
-      chunkSize: 10000, // default: 1000
-    }}
-  )
-}
+
 module.exports = {
   pathPrefix: config.gatsby.pathPrefix,
   siteMetadata: {

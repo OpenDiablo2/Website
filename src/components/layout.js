@@ -20,7 +20,8 @@ const Content = styled('main')`
   flex-grow: 1;
   margin: 0px 88px;
   margin-top: 3rem;
-
+  background-color: #35393f;
+  color: #e6ecf1;
   @media only screen and (max-width: 1023px) {
     padding-left: 0;
     margin: 0 10px;
@@ -29,7 +30,6 @@ const Content = styled('main')`
 `;
 
 const MaxWidth = styled('div')`
-
   @media only screen and (max-width: 50rem) {
     width: 100%;
     position: relative;

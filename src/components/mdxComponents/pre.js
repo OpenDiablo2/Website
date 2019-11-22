@@ -4,7 +4,6 @@ const Pre = system(
   {
     is: "pre",
     fontSize: 1,
-    // fontFamily: "mono",
     m: 0
   },
   {
@@ -12,7 +11,6 @@ const Pre = system(
   },
   "fontFamily",
   "space",
-  "color"
 );
 Pre.displayName = "Pre";
 

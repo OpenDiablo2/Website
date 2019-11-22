@@ -6,8 +6,6 @@ import {ExternalLink} from "react-feather";
 import '../styles.css';
 import config from '../../../config';
 
-const forcedNavOrder = config.sidebar.forcedNavOrder;
-
 // eslint-disable-next-line no-unused-vars
 const ListItem = styled(({ className, active, level, ...props }) => {
     return (
@@ -34,10 +32,9 @@ const ListItem = styled(({ className, active, level, ...props }) => {
       props.active &&
       `
       color: red;
-      border-color: rgb(230,236,241) !important;
       border-style: solid none solid solid;
       border-width: 1px 0px 1px 1px;
-      background-color: #fff;
+      background-color: #2e3136;
     `} // external link icon
     svg {
       float: right;
@@ -48,8 +45,6 @@ const ListItem = styled(({ className, active, level, ...props }) => {
 
 const Sidebar = styled('aside')`
   width: 100%;
-  /* background-color: rgb(245, 247, 249); */
-  /* border-right: 1px solid #ede7f3; */
   height: 100vh;
   overflow: auto;
   position: fixed;
@@ -59,22 +54,7 @@ const Sidebar = styled('aside')`
   position: sticky;
   top: 0;
   padding-right: 0;
-  background-color: rgb(0, 1, 2);
-  /* Safari 4-5, Chrome 1-9 */
-  background: linear-gradient(#fff, #333);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#222));
-  /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #333, #222);
-  /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, #333, #222);
-  /* IE 10 */
-  background: -ms-linear-gradient(top, #333, #222);
-  /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #333, #222);
-  @media only screen and (max-width: 767px) {
-    padding-left: 0px;
-    background-color: #333;
-    background: #333;
+  background-color: #2e3136;
   }
   @media (min-width: 767px) and (max-width:1023px)
   {
