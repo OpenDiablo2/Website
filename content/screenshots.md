@@ -1,6 +1,6 @@
 ---
 title: "Screenshots"
-metaTitle: "Screenshots showing the engine's featured"
+metaTitle: "OpenDiablo II - Screenshots"
 metaDescription: "OpenDiablo II Screenshots"
 ---
 

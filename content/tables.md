@@ -1,6 +1,6 @@
 ---
 title: "Tables"
-metaTitle: "Tables"
+metaTitle: "OpenDiablo II - Data Tables"
 metaDescription: "OpenDiablo II data tables"
 ---
 
