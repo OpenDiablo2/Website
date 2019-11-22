@@ -119,7 +119,6 @@ body {
 
 .navBarHeader {
   min-width: 335px;
-  padding-right: 20px;
 }
 
 .navBarBrand {
@@ -427,6 +426,20 @@ img {
   max-width: 100%;
 }
 /* end image */
+
+/* markdown */
+
+blockquote {
+  background:#2d3136;
+  border-left: 2px solid rgb(209, 89, 85);
+}
+
+blockquote p {
+  padding-bottom: 16px;
+}
+
+/* end markdown */
+
 .githubBtn {
   display: flex;
   align-items: center;

@@ -12,16 +12,9 @@ const config = {
     helpUrl: "https://github.com/OpenDiablo2/OpenDiablo2/issues",
     tweetText: "",
     links: [{ text: "", link: "" }],
-    search: {
-      enabled: false,
-      indexName: "",
-      algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
-      algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-      algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY
-    }
   },
   sidebar: {
-    forcedNavOrder: ["/introduction", "/configfile", "/tables"],
+    forcedNavOrder: ["/introduction", "/configfile", "/screenshots", "/tables"],
     links: [
       { text: "Discord", link: "https://discord.gg/pRy8tdc" },
       { text: "Twitch", link: "https://www.twitch.tv/essial/" }
