@@ -26,7 +26,7 @@ body {
 }
 
 .diffRemoveLine {
-  color: red;
+  color: #FF0000;
   background-color: #ffcccc;
 }
 .navBarParent {
@@ -387,8 +387,6 @@ table {
 table tr {
   border-top: 1px solid #e6ecf1;
   background-color: #2d3136;
-  margin: 0;
-  padding: 0;
 }
 
 table tr:nth-child(2n) {
@@ -399,7 +397,6 @@ table tr th {
   font-weight: bold;
   border: 1px solid #e6ecf1;
   text-align: left;
-  margin: 0;
   padding: 6px 13px;
   color: rgb(209, 89, 85);
 }
@@ -407,18 +404,15 @@ table tr th {
 table tr td {
   border: 1px solid #e6ecf1;
   text-align: left;
-  margin: 0;
   padding: 6px 13px;
 }
 
 table tr th :first-child,
 table tr td :first-child {
-  margin-top: 0;
 }
 
 table tr th :last-child,
 table tr td :last-child {
-  margin-bottom: 0;
 }
 /* end - tables.css */
 
@@ -488,10 +482,10 @@ blockquote p {
 }
 
 @media (max-width: 767px) {
-  hr {
+/*   hr {
     margin-top: 0;
     margin-bottom: 0;
-  }
+  } */
   .navBarParent {
     display: block;
   }
@@ -502,10 +496,10 @@ blockquote p {
   .navBarULRight {
     position: static;
   }
-  .navbar-collapse {
+/*   .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
-  }
+  } */
 
   .navBarUL {
     display: flex;
@@ -523,7 +517,7 @@ blockquote p {
   }
 
   .navBarToggle {
-    margin-right: 0;
+/*     margin-right: 0; */
     height: 44px;
   }
   .navBarHeader {
@@ -535,7 +529,7 @@ blockquote p {
   .navBarBrand {
     font-size: 20px;
     padding: 15px;
-    padding-left: 0;
+/*     padding-left: 0; */
     flex: 1;
   }
 
@@ -558,7 +552,7 @@ blockquote p {
 
   .mobileView {
     text-align: left !important;
-    padding-left: 0 !important;
+/*     padding-left: 0 !important; */
   }
 }
 
